@@ -6,7 +6,7 @@ This repository contains an end-to-end machine learning pipeline built to automa
 *   `pcos_dataset.csv`: The structured clinical dataset containing 1,000 patient records.
 *   `REPORT BASED ON PCOS DIAGNOSIS.docx`: The comprehensive technical report evaluating algorithm effectiveness.
 *   `README.md`: The repository summary and high-level benchmark overview.
-*   
+   
 ## 📊 Dataset Overview
 The analysis leverages a synthetic dataset of **1,000 patient entries** containing key clinical features highly correlated with PCOS risk factors:
 *   **Age (years):** Patient age ranging from 18 to 45.
