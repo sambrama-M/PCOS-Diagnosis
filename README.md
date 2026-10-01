@@ -2,6 +2,11 @@
 
 This repository contains an end-to-end machine learning pipeline built to automate the early detection and risk assessment of Polycystic Ovary Syndrome (PCOS). By benchmarking eight distinct classification algorithms, this project identifies the most accurate and computationally efficient predictive frameworks to aid clinical decision-making.
 
+## 📂 Project Artifacts & Structure
+*   `pcos_dataset.csv`: The structured clinical dataset containing 1,000 patient records.
+*   `REPORT BASED ON PCOS DIAGNOSIS.docx`: The comprehensive technical report evaluating algorithm effectiveness.
+*   `README.md`: The repository summary and high-level benchmark overview.
+*   
 ## 📊 Dataset Overview
 The analysis leverages a synthetic dataset of **1,000 patient entries** containing key clinical features highly correlated with PCOS risk factors:
 *   **Age (years):** Patient age ranging from 18 to 45.
@@ -15,7 +20,7 @@ The analysis leverages a synthetic dataset of **1,000 patient entries** containi
 
 ## 🛠️ Tech Stack & Dependencies
 *   **Language:** Python 3.11+
-*   **Machine & Deep Learning:** `scikit-learn`, `tensorflow` (Keras Sequential API)
+*   **Machine & Deep Learning:** `scikit-learn`, `tensorflow` 
 *   **Data Analysis & Engineering:** `pandas`, `numpy`
 *   **Data Visualization:** `matplotlib`, `seaborn`
 
@@ -44,12 +49,3 @@ Eight distinct algorithms were evaluated across standard performance metrics to 
 
 ---
 
-## 🚀 How to Run the Scripts
-1. Clone this repository:
-   ```bash
-   git clone https://github.com
-   ```
-2. Run any specific model script (e.g., Random Forest Classifier with interactive patient diagnostics):
-   ```bash
-   python random_forest_pcos.py
-   ```
